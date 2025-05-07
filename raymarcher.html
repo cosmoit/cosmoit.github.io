@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project - [Project Name]</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Top Navigation Bar -->
+    <div class="navbar">
+        <div class="nav-left">
+            <a href="index.html" class="back-button">← Back to Projects</a>
+        </div>
+        <h1>Logan Markson — Projects</h1>
+        <div class="nav-icons">
+            <a href="https://twitter.com/1og_n" target="_blank">
+                <img src="images/twitter_icon.png" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com/in/logan-markson-0798831b6/" target="_blank">
+                <img src="images/linkedin_icon.png" alt="LinkedIn">
+            </a>
+        </div>
+    </div>
+
+    <!-- Project Detail Section -->
+    <div class="container">
+        <img src="images/raymarcher/placeholder.jpg" alt="[Project Name] Image" class="project-image" />
+
+        <div class="project-content">
+            <h2>Post processing raymarchar</h2>
+            <p>
+                This post processing raymarcher is an experiment in screenspace rendering, computing lighting effects from textures containing position, normal, and color data from the scene. This technique has a constant cost given a unchanging resolution, regardless of scene complexity. The scene is rendered to the textures described before, then the screen space technique is used on those textures to produce the final image. Looking back there is much more that can be done here, nothing fancy was done for denoising, just a blur over the screen pixels.
+            </p>
+        </div>
+    </div>
+
+    <!-- Image/GIF Grid Section -->
+    <h2 class="section-label">Project Media</h2>
+    <div class="media-grid">
+        <a href="#" class="media-card">
+            <img src="images/raymarcher/final.gif" alt="final" class="media" />
+        </a>
+        <a href="#" class="media-card">
+            <img src="images/raymarcher/scene.gif" alt="scene" class="media" />
+        </a>
+        <a href="#" class="media-card">
+            <img src="images/raymarcher/box_no_blur.gif" alt="box_no_blur" class="media" />
+        </a>
+        <a href="#" class="media-card">
+            <img src="images/raymarcher/box2.jpg" alt="box2" class="media" />
+        </a>
+    </div>
+</body>
+</html>
