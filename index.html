@@ -1,122 +1,48 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Logan Markson - Projects</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-<!---
-
- --->
-
-<html>
-	<link rel="stylesheet" href="style.css">
-	<body>
-		<h2>
-			<a href="https://twitter.com/cosmoit_">
-				<img border = "0" src="images/twitter_icon.png" style="width:50px;height:50px;">
+	<div class="navbar">
+		<h1>Logan Markson — Projects</h1>
+		<div class="nav-icons">
+			<a href="https://twitter.com/1og_n" target="_blank">
+				<img src="images/twitter_icon.png" alt="Twitter">
 			</a>
-			<a href="https://www.linkedin.com/in/logan-markson-0798831b6/">
-				<img src="images/linkedin_icon.png" style="width:50px;height:50px;">
+			<a href="https://www.linkedin.com/in/logan-markson-0798831b6/" target="_blank">
+				<img src="images/linkedin_icon.png" alt="LinkedIn">
 			</a>
-		</h2>
+		</div>
+	</div>
 
-		<h2>
-			Toy Engine
-		</h2>
-		<p>
-			An engine/framework for all game/application work I do in my free time. All written from scratch in C w/ OpenGL(I have also tried vulkan).		</p>
-		<h2>
-            <video width="960" height="540" controls loop>
-                <source src="vids/toyengine.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-		</h2>
+	<h2 class="section-label">Current Ongoing Work</h2>
+	<div class="grid">
+		<a href="claw.html" class="card">
+			<img src="images/claw/placeholder.jpg" alt="CLAW" />
+			<p>CLAW</p>
+		</a>
+	</div>
 
-		<h2>
-			Lift and Drag Simulation
-		</h2>
-		<p>
-			Air particles simulated using compute shaders to find force and torques for a given model in real time.
-		</p>
-		<h2>
-            <video width="960" height="540" controls loop>
-                <source src="vids/dl0.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-		</h2>
-		<h2>
-            <video width="960" height="540" controls loop>
-                <source src="vids/dl1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-		</h2>
+	<div class="divider"></div>
 
-		<h2>
-			Post Processing Ray Marcher
-		</h2>
-		<p>
-			A ray marcher that computes geometry intersection in 2d space in a differed manner.
-		</p>
-		<h2>
-			<iframe width="960" height="540" style = "margin-bottom: 100px"
-				src="https://www.youtube.com/embed/mGFfH28JjYM">
-			</iframe>
-		</h2>
+	<h2 class="section-label">Past Projects</h2>
+	<div class="grid">
+		<a href="liftdrag.html" class="card">
+			<img src="images/liftdrag/placeholder.jpg" alt="LiftDragSim" />
+			<p>Lift & Drag Simulation</p>
+		</a>
 
-		<h2>
-			Terminal demo
-		</h2>
-		<p>
-			This is a terminal I wrote, inspired by refterm, to be able to ingress large amount of data in a much smaller amount of time than the windows terminal.
-		</p>
-		<h2>
-			<iframe width="960" height="540" style = "margin-bottom: 100px"
-				src="https://www.youtube.com/embed/Vy3shmS0qtg">
-			</iframe>
-		</h2>
+		<a href="procedural_animation.html" class="card">
+			<img src="images/procedural_animation/placeholder.jpg" alt="Animation" />
+			<p>Procedural Animation</p>
+		</a>
+	</div>
 
-		<h2>
-			RTS Game
-		</h2>
-		<p>
-			This is a game that was created during my 12 week internship at Roblox. Bot AI is showcased in this video.
-		</p>
-		<h2>
-			<iframe width="960" height="540" style = "margin-bottom: 100px"
-				src="https://www.youtube.com/embed/P016frV9cpI">
-			</iframe>
-		</h2>
-
-		<h2>
-			Capsule collider
-		</h2>
-		<p>
-			Collision detection algorithm to solve the closest points between a sphere swept line and basic primitives.
-		</p>
-		<h2>
-			<iframe width="960" height="540" style = "margin-bottom: 100px"
-				src="https://www.youtube.com/embed/iI9bucuj2nw">
-			</iframe>
-		</h2>
-
-		<h2>
-			Movement test with capsule collider
-		</h2>
-		<p>
-			Quake style movement as a proof of concept with the above collision detection.
-		</p>
-		<h2>
-			<iframe width="960" height="540" style = "margin-bottom: 100px"
-				src="https://www.youtube.com/embed/5J7U55bPsV8">
-			</iframe>
-		</h2>
-
-		<h2>
-			Procedural character animation
-		</h2>
-		<p>
-			Also uses the above mentioned collision detection. Animations are fully procedural with inverse kinematic joints.
-		</p>
-		<h2>
-			<iframe width="960" height="540" style = "margin-bottom: 100px"
-				src="https://www.youtube.com/embed/HzQYG-X7T7k">
-			</iframe>
-		</h2>
-	</body>
+</body>
 </html>
